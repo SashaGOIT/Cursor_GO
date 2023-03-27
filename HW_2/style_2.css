@@ -1,0 +1,13 @@
+.page {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 80px 80px;
+    background-color: rgba(211, 232, 234, 0.998);
+    display: block;
+ }
+
+.list{
+    margin-top: -10px;
+    }
