@@ -1,0 +1,238 @@
+html, body {
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto; 
+}
+
+.main_page {
+    height: 500px;
+    background: #ED4C5C;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    max-width: 1440px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    justify-content: space-around;
+}
+
+
+.container_content{
+    margin-top: 122px;
+    color: #FFFFFF;
+}
+
+.title_content {
+    font-size: 36px;
+    line-height: 43px;
+    margin-top: 0;
+    width: 445px;
+    }
+
+.Text_content{ 
+    width: 445px;
+    font-size: 14px;
+    line-height: 140%;
+    margin-top: 24px;
+}
+
+.img_Icons{
+    margin-top: 40px;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.photographs{
+    display: flex;
+    
+}
+
+    .Back_photo_2{
+        position: relative;
+        margin: 116px -235px 117px 81px;
+        }
+    
+
+    .Back_photo_1{
+        position: relative;
+        margin: 116px 0px 117px 0px;
+    }
+
+    .Front_photo{
+        position: absolute;
+        padding: 94px 0px 95px 125px;
+    }
+
+
+    
+.main_page_2{
+    justify-content: space-around;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background: #FFFFFF;
+}
+
+
+.wrapper_2 {
+    display: flex;
+    flex-direction: column; 
+    margin-top: 127px; 
+}
+
+.container_content_2{
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+}
+
+.title_content_2 {
+    width: 430px;
+    height: 107px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+    margin: 0;       
+}
+
+.text_content_2 {
+    width: 434px;
+    height: 64px;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: #000000;
+    margin: 0;
+}
+
+.conteinar_registration_form{
+    width: 540px;
+    display: flex;
+
+}
+
+.registration_form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 127px;
+    margin-left: 55px;
+    
+}
+
+.Name{
+    display: flex;
+    margin-bottom: 24px;
+    width: 540px;
+    height: 60px; 
+}
+
+.First_Name {
+    width: 255px;
+    padding-left: 20px;
+    font-size: 16px;
+    margin-right: 30px;
+    color: #13274380;
+    border: 1px solid #333333;
+    border-radius: 6px;
+}
+
+.Last_Name {
+    width: 255px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #13274380;
+    border: 1px solid #333333;
+    border-radius: 6px;
+}
+
+.Phone_Number_Select_Service{
+    height: 154px;
+    width: 540px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+}
+
+.Phone_Number{
+    height: 60px;
+    font-size: 16px;
+    padding-left: 20px;
+    margin-bottom: 24px;
+    color: #13274380;
+    border: 1px solid #333333;
+    border-radius: 6px;
+}
+
+.Select_Service{
+    font-size: 16px;
+    height: 60px;
+    padding-left: 20px;
+    color: #13274380;
+    border: 1px solid #333333;
+    border-radius: 6px;
+}
+
+.button_submit_now{
+    width: 160px;
+    height: 50px;
+    background: #ED4C5C;
+    border: 1.5px solid #ED4C5C;
+    border-radius: 6px; 
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 44px;
+    margin-left: 0; 
+    cursor: pointer;
+}
+
+
+
+.footer_container{
+    height: 435px;
+    display: flex;
+    margin: auto;
+    background: #FFFFFF;
+    justify-content: space-around;
+    padding-top: 130px;
+}
+
+.footer {
+    display: flex;
+    
+}
+
+.list_anddress,
+.list_Services, 
+.list_Get_in_Touch {
+    margin-top: 0;
+    list-style-type:none;
+    padding-left: 0;
+    font-size: 12px;
+    line-height: 150%;
+    margin-right: 165px;
+}
+
+.Copyright{
+    margin-top: 141px;
+    font-size: 12px;
+    color: #101010;
+}
+
+.score{
+    cursor: pointer;
+}
+
+.Twitter, .in {
+    margin-left: 15px;
+    cursor: pointer;
+}
